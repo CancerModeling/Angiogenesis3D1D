@@ -145,7 +145,6 @@ add_subdirectory(models)
 
 if(${Enable_Tests})
     message("Gnerating build files for Test ")
-    add_subdirectory(models/tests)
     add_subdirectory(tests)
 endif()
 

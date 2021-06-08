@@ -11,7 +11,6 @@ def setup_directories(dps):
     print('setting up directories ... ')
 
     pathlib.Path('sim').mkdir(parents=True, exist_ok=True)
-    pathlib.Path('sim/' + dp.model_name).mkdir(parents=True, exist_ok=True)
     pathlib.Path(dp.run_path).mkdir(parents=True, exist_ok=True) 
 
     # create input file

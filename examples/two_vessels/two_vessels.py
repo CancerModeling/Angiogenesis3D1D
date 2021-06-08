@@ -20,7 +20,9 @@ def setup_params():
   upper_bound = 0.9
   num_eigenfunctions = 17
 
-  for i in range(0, 10):
+  num_samples = 1
+  
+  for i in range(0, num_samples):
     # create sim params
     dp = SimParams()
     dp.num_elems = num_elems

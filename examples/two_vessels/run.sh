@@ -2,7 +2,7 @@
 MY_PWD=$(pwd)
 
 ## Fixed variable which should be changed less often
-EXEC_DIR=`pwd`/../build/bin/
+EXEC_DIR=${MY_PWD}/../../bin/
 
 ## libmesh options
 LIBMESH_OPTS2="--solver-system-names "

@@ -1,0 +1,25 @@
+# base ubuntu image with petsc, libmesh, hpx
+FROM prashjha/angio-base-focal:latest
+
+## build command
+## docker build --network=host --no-cache  -t angiogenesis3d1d-focal -f Dockerfile-focal .
+
+# Set metadata
+LABEL maintainer="Prashant K. Jha <pjha.sci@gmail.com>, Andreas Wagner <wagneran@ma.tum.de>, Tobias Koeppl <koepplto@ma.tum.de> "
+LABEL description="Angiogenesis3D1D docker image"
+
+WORKDIR /
+
+RUN git clone  https://github.com/CancerModeling/Angiogenesis3D1D.git
+
+RUN cd /Angiogenesis3D1D && \
+		mkdir build && \
+		cd build && \
+		cmake -DLIBMESH_DIR=${LIBMESH_DIR} \
+					-DPETSC_LIB=${PETSC_DIR}/lib \
+					-DCMAKE_BUILD_TYPE=Release \
+					-DEnable_Tests=ON \
+					.. && \
+		make -j 2 && \
+		make install
+

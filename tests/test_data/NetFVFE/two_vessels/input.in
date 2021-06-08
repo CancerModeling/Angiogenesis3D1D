@@ -15,10 +15,10 @@ domain_ymax                     = 2.0
 domain_zmin                     = 0.0
 domain_zmax                     = 2.0
 mesh_n_elements                 = 16
-final_time                      = 5.0
+final_time                      = 1.0
 time_step                       = 0.05
 perform_output                  = true
-output_interval                 = 10
+output_interval                 = 4
 output_tag                      = two_vessels
 output_debug_info               = true
 

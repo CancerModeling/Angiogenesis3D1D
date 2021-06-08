@@ -16,7 +16,7 @@ f_inp="input$f_suf.yaml"
 ) |& tee output.log
 
 # check if we have produced 'output_10.vtu' file
-if [[ -f "output_10.vtu" ]]; then
+if [[ -f "output_20.pvtu" ]]; then
     exit 0
 else
     exit 1

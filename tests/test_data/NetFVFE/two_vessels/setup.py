@@ -419,7 +419,7 @@ if __name__=="__main__":
   dp = SimParams()
   dp.pp_tag = 'two_vessels'
   dp.run_path = './' 
-  dp.set_time(5., 0.05, 10)
+  dp.set_time(1., 0.05, 5)
 
   # create input file
   fo = open(dp.run_path + 'input.in', 'w')

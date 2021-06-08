@@ -58,6 +58,7 @@ jobs:
             - checkout
             - libcmake
             - libmake
+            - libtest
     deploy:
       machine:
         image: ubuntu-2004:202008-01
@@ -83,8 +84,8 @@ jobs:
             command: |
               if [ "${CIRCLE_BRANCH}" == "main" ]; then
                  docker login docker.pkg.github.com --username prashjha -p ${G_TOKEN}
-                 docker tag prashjha/${IMAGE_NAME} docker.pkg.github.com/CancerModeling/Angiogenesis3D1D/${IMAGE_NAME}
-                 docker push docker.pkg.github.com/CancerModeling/Angiogenesis3D1D/${IMAGE_NAME}
+                 docker tag prashjha/${IMAGE_NAME} docker.pkg.github.com/cancermodeling/angiogenesis3d1d/${IMAGE_NAME}
+                 docker push docker.pkg.github.com/cancermodeling/angiogenesis3d1d/${IMAGE_NAME}
               fi
 workflows:
   version: 2

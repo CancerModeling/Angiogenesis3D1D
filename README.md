@@ -2,7 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/CancerModeling/Angiogenesis3D1D.svg?style=shield)](https://circleci.com/gh/CancerModeling/Angiogenesis3D1D) [![GitHub release](https://img.shields.io/github/release/CancerModeling/Angiogenesis3D1D.svg)](https://GitHub.com/CancerModeling/Angiogenesis3D1D/releases/) [![GitHub license](https://img.shields.io/github/license/CancerModeling/Angiogenesis3D1D.svg)](https://github.com/CancerModeling/Angiogenesis3D1D/blob/main/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/CancerModeling/Angiogenesis3D1D.svg)](https://github.com/CancerModeling/Angiogenesis3D1D/issues) [![GitHub repo size](https://img.shields.io/github/repo-size/CancerModeling/Angiogenesis3D1D.svg)](https://GitHub.com/CancerModeling/Angiogenesis3D1D/)
 
-<p align="center"> <img src="https://github.com/CancerModeling/Angiogenesis3D1D/blob/main/assets/logo/logo.png"> </p>
+<p align="center"> <img src="https://github.com/CancerModeling/Angiogenesis3D1D/blob/main/assets/logo/logo.png" width="300"> </p>
 
 ## Table of contents
 
@@ -29,8 +29,8 @@ python3 two_vessels.py run
 ```
 Above will create following input files used in the code:
 - input.in - File that provides final time, mesh size, and values of parameters in the model
-- tum_ic_data_<tag>.csv - Provides the location and size of tumor cores
-- two_vessels_<tag>.dgf - Provides the initial vessel network
+- tum_ic_data_`tag`.csv - Provides the location and size of tumor cores
+- two_vessels_`tag`.dgf - Provides the initial vessel network
 
 ## Installation
 
@@ -87,7 +87,7 @@ git clone https://github.com/CancerModeling/Angiogenesis3D1D.git
 cd Angiogenesis3D1D && mkdir build && cd build
 
 cmake   -DLIBMESH_DIR="<libmesh install path>" \
-				-DPETSC_LIB="<petsc install path>/lib" \
+        -DPETSC_LIB="<petsc install path>/lib" \
         -DEnable_Documentation=ON \
         -DEnable_Tests=ON \
         -DCMAKE_BUILD_TYPE=Release \
@@ -133,6 +133,6 @@ If this library was useful in your work, we recommend citing the following artic
 > Fritz, M., Jha, P. K., Köppl, T., Oden, J. T., & Wohlmuth, B. (2021). Analysis of a new multispecies tumor growth model coupling 3D phase-fields with a 1D vascular network. Nonlinear Analysis: Real World Applications, 61, 103331.
 
 ## Developers
-  - [Prashant K. Jha](https://prashjha.github.io/) (pjha.sci@gmail.com, pjha@utexas.edu)
+  - [Prashant K. Jha](pjha.sci@gmail.com)
   - [Tobias Koeppl](koepplto@ma.tum.de)
   - [Andreas Wagner](wagneran@ma.tum.de)

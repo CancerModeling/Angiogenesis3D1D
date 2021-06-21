@@ -16,9 +16,9 @@
 ## Introduction
 3D-1D tumor growth model for simulation of angiogenesis. The code is used to generate results in the papers
 
-> Marvin Fritz, Prashant K. Jha, Tobias Köppl, J. Tinsley Oden, and Barbara Wohlmuth. **Analysis of a new multispecies tumor growth model coupling 3D phase-fields with a 1D vascular network.** *Nonlinear Analysis: Real World Applications 61 (2021): 103331*. 
+> Marvin Fritz, Prashant K. Jha, Tobias Köppl, J. Tinsley Oden, and Barbara Wohlmuth. **Analysis of a new multispecies tumor growth model coupling 3D phase-fields with a 1D vascular network.** *Nonlinear Analysis: Real World Applications 61 (2021): 103331*. [doi](https://doi.org/10.1016/j.nonrwa.2021.103331).
 
-> Marvin Fritz, Prashant K. Jha, Tobias Köppl, J. Tinsley Oden, Andreas Wagner, and Barbara Wohlmuth. **Modeling and simulation of vascular tumors embedded in evolving capillary networks.** *arXiv preprint arXiv:2101.10183 (2021)*. **To appear in Computer Methods in Applied Mechanics and Engineering**.
+> Marvin Fritz, Prashant K. Jha, Tobias Köppl, J. Tinsley Oden, Andreas Wagner, and Barbara Wohlmuth. **Modeling and simulation of vascular tumors embedded in evolving capillary networks.** *Computer Methods in Applied Mechanics and Engineering (2021), 384, 113975*. [doi](https://doi.org/10.1016/j.cma.2021.113975).
 
 ## Examples
 Example of tumor growth with two vessels (artery and vein) is provided in the directory [two_vessels](examples/two_vessels). Python scripts are used to create various input files. 

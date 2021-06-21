@@ -128,11 +128,12 @@ In [Packages](https://github.com/orgs/CancerModeling/packages?repo_name=Angiogen
 ## Citations
 If this library was useful in your work, we recommend citing the following articles:
 
-> Fritz, M., Jha, P. K., Köppl, T., Oden, J. T., Wagner, A., & Wohlmuth, B. (2021). Modeling and simulation of vascular tumors embedded in evolving capillary networks. arXiv preprint arXiv:2101.10183.
+> Fritz, M., Jha, P. K., Köppl, T., Oden, J. T., Wagner, A., & Wohlmuth, B. (2021). Modeling and simulation of vascular tumors embedded in evolving capillary networks. Computer Methods in Applied Mechanics and Engineering, 384, 113975. [doi](https://doi.org/10.1016/j.cma.2021.113975).
 
-> Fritz, M., Jha, P. K., Köppl, T., Oden, J. T., & Wohlmuth, B. (2021). Analysis of a new multispecies tumor growth model coupling 3D phase-fields with a 1D vascular network. Nonlinear Analysis: Real World Applications, 61, 103331.
+> Fritz, M., Jha, P. K., Köppl, T., Oden, J. T., & Wohlmuth, B. (2021). Analysis of a new multispecies tumor growth model coupling 3D phase-fields with a 1D vascular network. Nonlinear Analysis: Real World Applications, 61, 103331. [doi](https://doi.org/10.1016/j.nonrwa.2021.103331).
 
 ## Developers
   - [Prashant K. Jha](pjha.sci@gmail.com)
   - [Tobias Koeppl](koepplto@ma.tum.de)
   - [Andreas Wagner](wagneran@ma.tum.de)
+  - [Marvin Fritz](marvin.fritz@ma.tum.de)
